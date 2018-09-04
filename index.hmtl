@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <div id="display">0000</div>
+        <div id="container">
+          <div class="numbers"></div>
+          <div class="functions">
+            <button class="function" onclick='operatorButton("clear")'>Clear</button>
+            <button class="function" onclick='operatorButton("add")'>+</button>
+            <button class="function" onclick='operatorButton("subtract")'>-</button>
+            <button class="function" onclick='operatorButton("multiply")'>x</button>
+            <button class="function" onclick='operatorButton("divide")'>/</button>
+          </div>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
